@@ -12,19 +12,26 @@
     </header>
     <main class="container">
         <section>
-            <h2>Ja, ich will mitmachen - lasst mich wissen wenn ich Teilnehmen kann</h2>
+            <h2>Ich will auf die Warteliste - schickt mir bitte ein Mail, wenn ich anfangen kann</h2>
             <form action="https://formspree.io/f/xkgwlowv" method="POST">
-                  <label for="email">E-Mail Adresse:</label>
-                  <input type="email" name="email" id="email" required>
-  
-                  <div class="privacy-notice">
-            <input type="checkbox" id="privacy-consent" name="privacy-consent" required>
-        <label for="privacy-consent">
-      Ich stimme zu, dass meine E-Mail-Adresse gespeichert und für den Versand von Informationen zum KI Führerschein verwendet wird. Diese Zustimmung kann ich jederzeit widerrufen. Weitere Informationen finden Sie in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.
-        </label>
-      </div>
+                <label for="name">Name (optional):</label>
+                <input type="text" name="name" id="name">
 
-      <button type="submit" class="cta-button">Anmelden</button>
+                <label for="email">E-Mail Adresse:</label>
+                <input type="email" name="email" id="email" required>
+                
+                <div class="privacy-notice">
+                    <input type="checkbox" id="privacy-consent" name="privacy-consent" required>
+                    <label for="privacy-consent">
+                        Ich stimme zu, dass meine E-Mail-Adresse gespeichert und für den Versand von Informationen zum KI Führerschein verwendet wird. Diese Zustimmung kann ich jederzeit widerrufen. Weitere Informationen finden Sie in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.
+                    </label>
+                </div>
+
+                <input type="hidden" name="_subject" value="Neue Anmeldung für KI Führerschein Updates">
+                <input type="hidden" name="_next" value="https://kifuehrerschein.org/danke.html">
+                <input type="text" name="_gotcha" style="display:none" />
+
+                <button type="submit" class="cta-button">Anmelden</button>
             </form>
         </section>
     </main>
