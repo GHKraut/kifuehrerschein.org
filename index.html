@@ -21,7 +21,6 @@
         header {
             background-color: #1e1e1e;
             text-align: center;
-            padding: 2rem 0;
         }
         h1 {
             margin-bottom: 0;
@@ -32,7 +31,7 @@
         }
         .cta-button {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: #007bff; /* Vibrant blue */
             color: white;
             padding: 12px 24px;
             text-decoration: none;
@@ -41,7 +40,7 @@
             transition: background-color 0.3s;
         }
         .cta-button:hover {
-            background-color: #45a049;
+            background-color: #0056b3; /* Darker blue for hover */
         }
         footer {
             margin-top: 2rem;
@@ -67,32 +66,62 @@
             margin-bottom: 1rem;
         }
         a {
-            color: #4CAF50;
+            color: #007bff;
         }
-        /* Hero-Sektion mit Hintergrundbild */
         .hero {
             background-image: url('images/Largersquaregroup_WhiteBG1.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 70vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
         }
         .hero h1 {
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Verbessert die Lesbarkeit */
+            font-size: 3.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            background-color: rgba(0,0,0,0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            background-color: rgba(0,0,0,0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="unternehmen.html">Für Unternehmen</a></li>
+                <li><a href="anmeldung.html">Anmelden</a></li>
+            </ul>
+        </nav>
         <div class="container">
             <section class="hero">
                 <h1>KI Führerschein</h1>
-                <p>Machen Sie sich fit für die KI-Zukunft!</p>
+                <p>Fit ins KI-Zeitalter - für alle!</p>
             </section>
         </div>
     </header>
@@ -113,13 +142,13 @@
                 <img src="images/GermlargeteamBlue1.png" alt="Für Verbände, Organisationen, Firmen">
                 <h3>Für Verbände, Organisationen, Firmen</h3>
                 <p>Erfahren Sie, wie Sie den KI Führerschein in Ihrer Organisation implementieren können.</p>
-                <a href="#" class="cta-button">Mehr erfahren</a>
+                <a href="unternehmen.html" class="cta-button">Mehr erfahren</a>
             </div>
             <div class="crossroads-option">
                 <img src="images/GermCoup1.png" alt="Für mich">
                 <h3>Für mich</h3>
                 <p>Starten Sie Ihre persönliche Reise zur KI-Kompetenz mit dem KI Führerschein.</p>
-                <a href="#" class="cta-button">Jetzt teilnehmen</a>
+                <a href="anmeldung.html" class="cta-button">Jetzt anmelden</a>
             </div>
         </section>
 
