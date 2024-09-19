@@ -6,76 +6,75 @@
     <title>KI Führerschein</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            color: #ffffff;
+            background-color: #121212;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
         header {
-            background-color: #4a90e2;
-            color: white;
+            background-color: #1e1e1e;
             text-align: center;
-            padding: 1rem;
-            margin-bottom: 2rem;
+            padding: 2rem 0;
         }
         h1 {
             margin-bottom: 0;
+            font-size: 2.5em;
         }
         section {
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
         }
         .cta-button {
             display: inline-block;
             background-color: #4CAF50;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 24px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
         }
         footer {
             margin-top: 2rem;
             text-align: center;
             font-size: 0.9em;
+            padding: 20px;
+            background-color: #1e1e1e;
+        }
+        .crossroads {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3rem;
+        }
+        .crossroads-option {
+            text-align: center;
+            width: 45%;
+        }
+        .crossroads-option img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #4CAF50;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>KI Führerschein</h1>
-        <p>Machen Sie sich fit für die KI-Zukunft!</p>
+        <div class="container">
+            <h1>KI Führerschein</h1>
+            <p>Machen Sie sich fit für die KI-Zukunft!</p>
+        </div>
     </header>
-
-    <main>
-        <section>
-            <h2>Was ist der KI Führerschein?</h2>
-            <p>Der KI Führerschein ist eine Initiative, um die deutsche Bevölkerung KI-kompetenter zu machen. Unser Zertifizierungsprogramm ist einfach zu nutzen, macht Spaß und wird über Organisationen und Verbände verteilt.</p>
-        </section>
-
-        <section>
-            <h2>Unsere Mission</h2>
-            <p>Wir möchten Menschen befähigen, die Chancen und Herausforderungen der künstlichen Intelligenz zu verstehen und verantwortungsvoll damit umzugehen.</p>
-        </section>
-
-        <section>
-            <h2>Wie funktioniert es?</h2>
-            <p>1. Melden Sie sich an<br>
-               2. Durchlaufen Sie unsere interaktiven Module<br>
-               3. Bestehen Sie den Abschlusstest<br>
-               4. Erhalten Sie Ihr KI Führerschein-Zertifikat</p>
-        </section>
-
-        <section>
-            <h2>Machen Sie mit!</h2>
-            <p>Sind Sie bereit, Ihre KI-Kompetenz zu steigern? Klicken Sie hier, um mehr zu erfahren oder sich anzumelden:</p>
-            <a href="#" class="cta-button">Jetzt KI Führerschein machen</a>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 KI Führerschein Initiative. Alle Rechte vorbehalten. | <a href="impressum.html">Impressum</a></p>
-    </footer>
-</body>
-</html>
