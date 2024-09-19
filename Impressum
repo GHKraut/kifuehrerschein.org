@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum - KI Führerschein</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #4a90e2;
+        }
+        a {
+            color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Impressum</h1>
+    <p>
+        Georg Hesse<br>
+        Eichenstrasse 1<br>
+        85737 Ismaning
+    </p>
+    <p>
+        Tel.: 01715447836<br>
+        E-Mail-Kontakt: <a href="mailto:info@kifuehrerschein.org">info@kifuehrerschein.org</a>
+    </p>
+    <p>Umsatzsteuer-ID-Nummer: [Hier einfügen, falls vorhanden]</p>
+    <p><strong>Verantwortlich:</strong> Georg Hesse</p>
+    <p><strong>Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV:</strong> Georg Hesse</p>
+    <p><strong>Online-Redaktion:</strong> Georg Hesse</p>
+    <p><strong>Film- & Fotoredaktion:</strong> Georg Hesse</p>
+    <p><strong>Website-Konzeption:</strong> Georg Hesse</p>
+    <p>Alle Rechte vorbehalten. Vervielfältigung in jedweder Form nur mit schriftlicher Genehmigung.</p>
+    <p>Bildquellen: [Hier einfügen, falls spezifische Bildquellen verwendet werden]</p>
+    <p>Die EU-Kommission stellt eine Plattform für die außergerichtliche Online-Streitbeilegung (OS-Plattform) bereit, die unter <a href="https://ec.europa.eu/consumers/odr" target="_blank">https://ec.europa.eu/consumers/odr</a> aufrufbar ist.</p>
+    <p>Der KI Führerschein ist weder gesetzlich verpflichtet noch bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle gemäß dem Verbraucherstreitbeilegungsgesetz (VSBG) teilzunehmen.</p>
+    <p><a href="index.html">Zurück zur Startseite</a></p>
+</body>
+</html>
