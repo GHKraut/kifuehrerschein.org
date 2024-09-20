@@ -83,3 +83,40 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #0056b3;
 }
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.company-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.company-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.company-text {
+    flex: 1;
+}
+
+.company-text ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .company-info {
+        flex-direction: column;
+    }
+
+    .company-image {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
