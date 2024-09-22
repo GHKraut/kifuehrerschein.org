@@ -168,3 +168,11 @@ button[type="submit"]:hover {
         margin-bottom: 2rem;
     }
 }
+.info-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-links a:hover {
+    text-decoration: underline;
+}
