@@ -120,3 +120,51 @@ button[type="submit"]:hover {
         margin-bottom: 1rem;
     }
 }
+.crossroads {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.crossroads-option {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+}
+
+.crossroads-option img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.crossroads-option-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.crossroads-option-content p {
+    flex-grow: 1;
+}
+
+.cta-button {
+    margin-top: auto;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .crossroads {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .crossroads-option {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 2rem;
+    }
+}
