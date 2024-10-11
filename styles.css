@@ -158,30 +158,6 @@ button[type="submit"]:hover {
     width: 100%;
 }
 
- 
-
-htmlCopy<section class="crossroads">
-    <div class="crossroads-option">
-        <div class="image-container">
-            <img src="images/istock-group1.jpg" alt="Für Verbände, Organisationen, Firmen">
-        </div> 
-        <div class="crossroads-option-content">
-            <h3>Für Verbände, Organisationen, Firmen</h3>
-            <p>Erfahren Sie, wie Sie den KI Führerschein in Ihrer Organisation implementieren können.</p>
-            <a href="unternehmen.html" class="cta-button">Mehr erfahren</a>
-        </div>
-    </div>
-    <div class="crossroads-option">
-        <div class="image-container">
-            <img src="images/GermCoup1.png" alt="Für mich">
-        </div>     
-        <div class="crossroads-option-content">
-            <h3>Für mich</h3>
-            <p>Starten Sie Ihre persönliche Reise zur KI-Kompetenz mit dem KI Führerschein.</p>
-            <a href="anmeldung.html" class="cta-button">Jetzt anmelden</a>
-        </div>
-    </div>
-</section>
 
 .cta-button {
     margin-top: auto;
