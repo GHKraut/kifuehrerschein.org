@@ -146,7 +146,7 @@ button[type="submit"]:hover {
 .crossroads-option .image-container img {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 40;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -158,7 +158,7 @@ button[type="submit"]:hover {
     width: 100%;
 }
 
-Make sure your HTML structure remains the same:
+ 
 
 htmlCopy<section class="crossroads">
     <div class="crossroads-option">
