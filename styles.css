@@ -205,3 +205,32 @@ button[type="submit"]:hover {
     display: inline;
     margin-left: 0.5rem;
 }
+.hero {
+    background-image: url('images/44_portraits_tuerkisgrid4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1, .hero p {
+    color: #0056b3; /* This keeps the text color as it was */
+    background-color: rgba(186, 224, 230, 0.8); /* Light matte turquoise with some transparency */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
