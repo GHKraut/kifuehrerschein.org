@@ -220,4 +220,5 @@ button[type="submit"]:hover {
 
 .hero h1, .hero p {
     color: #0056b3; /* Dark blue text for contrast */
-    background-color: rgba(186, 224, 230, 0.8); /* Light matte turquoise with some transparency */
+    background-color: rgba(186, 224, 230, 0.8)!important; /* Light matte turquoise with some transparency */
+    
